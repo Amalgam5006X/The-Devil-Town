@@ -682,3 +682,13 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [12Sep2025 00:48:32.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Amalgam5006X: Teleported Amalgam5006X to -335.500000, 98.116501, 224.500000]
 [12Sep2025 00:48:40.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Amalgam5006X: Teleported 2 entities to Amalgam5006X]
 [12Sep2025 00:48:42.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 fell from a high place
+[12Sep2025 00:49:14.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Amalgam5006X: Teleported 2 entities to Amalgam5006X]
+[12Sep2025 00:49:55.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Amalgam5006X: Teleported Amalgam5006X to Dwiss3]
+[12Sep2025 00:50:37.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 has made the advancement [Suit Up]
+[12Sep2025 00:50:40.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Amalgam5006X: Teleported Amalgam5006X to Dwiss3]
+[12Sep2025 00:50:57.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 has made the advancement [Acquire Hardware]
+[12Sep2025 00:55:08.329] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved too quickly! -7.650158450168476,1.125,6.645240149274116
+[12Sep2025 00:55:08.329] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3002ms or 60 ticks behind
+[12Sep2025 00:55:28.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Amalgam5006X: Teleported Amalgam5006X to Dwiss3]
+[12Sep2025 00:56:55.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Amalgam5006X: Teleported Amalgam5006X to Dwiss3]
+[12Sep2025 00:57:04.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Amalgam5006X: Set the time to 1000]
