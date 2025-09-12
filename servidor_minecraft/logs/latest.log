@@ -645,3 +645,40 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [12Sep2025 00:37:47.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Amalgam5006X: Set own game mode to Spectator Mode]
 [12Sep2025 00:38:01.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Amalgam5006X: Teleported Amalgam5006X to 20.500000, 100.000000, 81.500000]
 [12Sep2025 00:38:10.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Amalgam5006X: Set own game mode to Creative Mode]
+[12Sep2025 00:44:13.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Amalgam5006X has made the advancement ['X' Marks the Spot]
+[12Sep2025 00:44:42.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made dwisse a server operator
+[12Sep2025 00:44:42.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 has made the advancement ['X' Marks the Spot]
+[12Sep2025 00:45:10.777] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:village_snowy took 0 ms
+[12Sep2025 00:45:55.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Amalgam5006X: Set the time to 1000]
+[12Sep2025 00:47:54.656] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8526, y=-56, z=787}
+[12Sep2025 00:47:54.656] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8526, y=-51, z=788}
+[12Sep2025 00:47:54.657] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8526, y=-51, z=789}
+[12Sep2025 00:47:54.657] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8526, y=-51, z=787}
+[12Sep2025 00:47:54.691] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8526, y=-56, z=787}
+[12Sep2025 00:47:54.691] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8526, y=-51, z=788}
+[12Sep2025 00:47:54.691] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8526, y=-51, z=789}
+[12Sep2025 00:47:54.692] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8526, y=-51, z=787}
+[12Sep2025 00:47:54.694] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8569, y=-56, z=414}
+[12Sep2025 00:47:55.052] [Worker-Main-4/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8570, y=-56, z=410}
+[12Sep2025 00:47:55.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Amalgam5006X: Teleported Amalgam5006X to -335.500000, 95.782601, 224.500000]
+[12Sep2025 00:47:56.001] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8463, y=-56, z=407}
+[12Sep2025 00:47:56.002] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8463, y=-56, z=409}
+[12Sep2025 00:47:56.002] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8463, y=-57, z=408}
+[12Sep2025 00:47:56.195] [Worker-Main-4/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8517, y=-56, z=259}
+[12Sep2025 00:47:56.371] [Worker-Main-4/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8570, y=-56, z=747}
+[12Sep2025 00:47:56.525] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8570, y=-56, z=747}
+[12Sep2025 00:47:56.563] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8476, y=-56, z=356}
+[12Sep2025 00:47:56.563] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8469, y=-56, z=356}
+[12Sep2025 00:47:56.564] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8471, y=-56, z=356}
+[12Sep2025 00:47:56.564] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8474, y=-56, z=356}
+[12Sep2025 00:47:58.181] [Worker-Main-4/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8463, y=-56, z=407}
+[12Sep2025 00:47:58.181] [Worker-Main-4/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8463, y=-56, z=409}
+[12Sep2025 00:47:58.182] [Worker-Main-4/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8463, y=-57, z=408}
+[12Sep2025 00:47:58.770] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8463, y=-56, z=407}
+[12Sep2025 00:47:58.774] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8463, y=-56, z=409}
+[12Sep2025 00:47:58.774] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-8463, y=-57, z=408}
+[12Sep2025 00:48:06.104] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=1340, y=81, z=648}
+[12Sep2025 00:48:26.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Amalgam5006X: Teleported Amalgam5006X to Dwiss3]
+[12Sep2025 00:48:32.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Amalgam5006X: Teleported Amalgam5006X to -335.500000, 98.116501, 224.500000]
+[12Sep2025 00:48:40.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Amalgam5006X: Teleported 2 entities to Amalgam5006X]
+[12Sep2025 00:48:42.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 fell from a high place
