@@ -1,58 +1,59 @@
-[10Sep2025 04:09:28.850] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[10Sep2025 04:09:28.854] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[10Sep2025 04:09:29.348] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[10Sep2025 04:09:29.355] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
-[10Sep2025 04:09:29.387] [main/INFO] [mixin-transmog/]: crimes against java were committed
-[10Sep2025 04:09:29.411] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
-[10Sep2025 04:09:29.458] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/The-Devil-Town/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar%23148%23151!/ Service=ModLauncher Env=SERVER
-[10Sep2025 04:09:29.958] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/The-Devil-Town/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[10Sep2025 04:09:29.960] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/The-Devil-Town/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[10Sep2025 04:09:29.961] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/The-Devil-Town/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[10Sep2025 04:09:29.962] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/The-Devil-Town/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[10Sep2025 04:09:30.509] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[10Sep2025 04:09:30.510] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 73 dependencies adding them to mods collection
-[10Sep2025 04:09:31.297] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 54 candidates to load
-[10Sep2025 04:09:36.998] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
-[10Sep2025 04:09:38.714] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[10Sep2025 04:09:39.156] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
-[10Sep2025 04:09:39.158] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.tradecycling.MixinConnector]
-[10Sep2025 04:09:39.176] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[10Sep2025 04:09:39.188] [main/INFO] [com.abdelaziz.saturn.common.Saturn/]: Loaded Saturn config file with 4 configurable options
-[10Sep2025 04:09:39.282] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[10Sep2025 04:09:39.326] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[10Sep2025 04:09:39.327] [main/INFO] [C2ME Config System/]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@9.2.14 (*) (defined in c2me)
-[10Sep2025 04:09:39.328] [main/INFO] [C2ME Modules Manager/]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[10Sep2025 04:09:39.341] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[10Sep2025 04:09:39.402] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.21.0+mc1.20.1: 88 options available, 4 override(s) found
-[10Sep2025 04:09:39.403] [main/WARN] [ModernFix/]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
-[10Sep2025 04:09:39.404] [main/WARN] [ModernFix/]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
-[10Sep2025 04:09:39.404] [main/WARN] [ModernFix/]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
-[10Sep2025 04:09:39.405] [main/WARN] [ModernFix/]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
-[10Sep2025 04:09:39.405] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[10Sep2025 04:09:39.422] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[10Sep2025 04:09:39.458] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.math.mixin
-[10Sep2025 04:09:39.465] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.base.mixin
-[10Sep2025 04:09:39.555] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[10Sep2025 04:09:39.570] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[10Sep2025 04:09:39.616] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[10Sep2025 04:09:39.617] [main/INFO] [C2ME Modules Manager/]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
-[10Sep2025 04:09:39.628] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.allocs.mixin
-[10Sep2025 04:09:39.671] [main/INFO] [Radium Config/]: Loaded configuration file for Radium: 125 options available, 2 override(s) found
-[10Sep2025 04:09:39.677] [main/WARN] [mixin/]: Reference map 'terra.fabric.refmap.json' for terra.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[10Sep2025 04:09:39.682] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.threading.lighting.mixin
-[10Sep2025 04:09:39.709] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[10Sep2025 04:09:39.736] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[10Sep2025 04:09:39.739] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[10Sep2025 04:09:39.742] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[10Sep2025 04:09:39.745] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[10Sep2025 04:09:39.755] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.server.utils.mixin
-[10Sep2025 04:09:39.770] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.notickvd.mixin
-[10Sep2025 04:09:39.777] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[10Sep2025 04:09:39.780] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[10Sep2025 04:09:39.790] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[10Sep2025 04:09:39.791] [main/INFO] [C2ME Modules Manager/]: Disabling com.ishland.c2me.threading.worldgen.mixin
-[10Sep2025 04:09:39.850] [main/INFO] [Puzzles Lib/]: Loading 158 mods:
+[12Sep2025 00:28:49.824] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[12Sep2025 00:28:49.829] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[12Sep2025 00:28:53.553] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[12Sep2025 00:28:53.655] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[12Sep2025 00:28:53.678] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[12Sep2025 00:28:53.696] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[12Sep2025 00:28:53.732] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/The-Devil-Town/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar%23148%23151!/ Service=ModLauncher Env=SERVER
+[12Sep2025 00:28:54.375] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/The-Devil-Town/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[12Sep2025 00:28:54.379] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/The-Devil-Town/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Sep2025 00:28:54.380] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/The-Devil-Town/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Sep2025 00:28:54.381] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/The-Devil-Town/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Sep2025 00:28:55.166] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[12Sep2025 00:28:55.168] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 73 dependencies adding them to mods collection
+[12Sep2025 00:28:57.208] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 54 candidates to load
+[12Sep2025 00:29:00.448] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
+[12Sep2025 00:29:02.213] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[12Sep2025 00:29:02.738] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[12Sep2025 00:29:02.739] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.tradecycling.MixinConnector]
+[12Sep2025 00:29:02.766] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[12Sep2025 00:29:02.830] [main/INFO] [com.abdelaziz.saturn.common.Saturn/]: Loaded Saturn config file with 4 configurable options
+[12Sep2025 00:29:03.005] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[12Sep2025 00:29:03.139] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[12Sep2025 00:29:03.140] [main/INFO] [C2ME Config System/]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@9.2.14 (*) (defined in c2me)
+[12Sep2025 00:29:03.140] [main/INFO] [C2ME Modules Manager/]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[12Sep2025 00:29:03.151] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[12Sep2025 00:29:03.207] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.21.0+mc1.20.1: 88 options available, 4 override(s) found
+[12Sep2025 00:29:03.208] [main/WARN] [ModernFix/]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[12Sep2025 00:29:03.208] [main/WARN] [ModernFix/]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[12Sep2025 00:29:03.208] [main/WARN] [ModernFix/]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[12Sep2025 00:29:03.209] [main/WARN] [ModernFix/]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[12Sep2025 00:29:03.209] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[12Sep2025 00:29:03.220] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[12Sep2025 00:29:03.249] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.math.mixin
+[12Sep2025 00:29:03.258] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.base.mixin
+[12Sep2025 00:29:03.336] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[12Sep2025 00:29:03.359] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[12Sep2025 00:29:03.410] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[12Sep2025 00:29:03.411] [main/INFO] [C2ME Modules Manager/]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[12Sep2025 00:29:03.422] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.allocs.mixin
+[12Sep2025 00:29:03.513] [main/INFO] [Radium Config/]: Loaded configuration file for Radium: 125 options available, 2 override(s) found
+[12Sep2025 00:29:03.526] [main/WARN] [mixin/]: Reference map 'terra.fabric.refmap.json' for terra.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[12Sep2025 00:29:03.533] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.threading.lighting.mixin
+[12Sep2025 00:29:03.559] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[12Sep2025 00:29:03.589] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[12Sep2025 00:29:03.591] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[12Sep2025 00:29:03.595] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[12Sep2025 00:29:03.597] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[12Sep2025 00:29:03.614] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.server.utils.mixin
+[12Sep2025 00:29:03.627] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.notickvd.mixin
+[12Sep2025 00:29:03.638] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[12Sep2025 00:29:03.642] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[12Sep2025 00:29:03.653] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[12Sep2025 00:29:03.654] [main/INFO] [C2ME Modules Manager/]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[12Sep2025 00:29:03.733] [main/INFO] [Puzzles Lib/]: Loading 158 mods:
 	- architectury 9.2.14
+	- astrological 1.2.0
 	- balm 7.3.34
 		\-- kuma_api 20.1.10
 	- c2me 0.2.0alpha.11.16
@@ -165,6 +166,7 @@
 	- jei 15.20.0.112
 	- kotlinforforge 4.11.0
 	- krypton 0.2.3
+	- lios_overhauled_villages 1.18.2-1.21.6-v0.0.9
 	- lootr 0.7.35.92
 	- luphieclutteredmod 2.1
 	- minecraft 1.20.1
@@ -192,9 +194,7 @@
 		|-- apoli 1.20.1-2.9.0.8
 		|-- calio 1.20.1-1.11.0.5
 		\-- mixinextras 0.2.0-beta.8
-	- origins_plus_plus 2.4-forge
 	- packetfixer 3.1.4
-	- pehkui 3.8.2+1.20.1-forge
 	- personalplayer 1.20.x-1.0.0
 	- puzzleslib 8.1.32
 		\-- puzzlesaccessapi 20.1.1
@@ -211,43 +211,45 @@
 	- tradablemusicdiscs 1.0.0
 	- trade_cycling 1.20.1-1.0.18
 	- villagersellanimals 1.2.1
-[10Sep2025 04:09:39.906] [main/INFO] [dev.tonimatas.packetfixer.mixins.v1_19_4_forge.MixinPlugin/]: Packet Fixer forge 1.19.4-1.20.1 has been applied successfully.
-[10Sep2025 04:09:39.945] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
-[10Sep2025 04:09:40.780] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
-[10Sep2025 04:09:40.781] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
-[10Sep2025 04:09:40.781] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1
-[10Sep2025 04:09:40.783] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[10Sep2025 04:09:40.783] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
-[10Sep2025 04:09:40.783] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1
-[10Sep2025 04:09:41.348] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.blockstate.StateMixin' as option 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[10Sep2025 04:09:41.388] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as option 'mixin.world.player_chunk_tick' (added by mods [c2me]) disables it and children
-[10Sep2025 04:09:41.770] [main/INFO] [faster-random/]: Loading Faster Random.
-[10Sep2025 04:09:42.035] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[10Sep2025 04:09:42.587] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (15.88 s after launch)
-[10Sep2025 04:09:42.804] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
-[10Sep2025 04:09:42.804] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
-[10Sep2025 04:09:43.406] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[10Sep2025 04:09:43.406] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[10Sep2025 04:09:43.406] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[10Sep2025 04:09:43.407] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[10Sep2025 04:09:43.407] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[10Sep2025 04:09:44.509] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1919 milliseconds
-[10Sep2025 04:09:46.826] [main/INFO] [mixin/]: apoli.mixins.json:ItemSlotArgumentTypeAccessor from mod apoli->@Accessor[FIELD_GETTER]::getSlotNamesToSlotCommandId()Ljava/util/Map; should be static as its target is
-[10Sep2025 04:09:47.359] [main/WARN] [mixin/]: Method overwrite conflict for m_47505_ in lithium.mixins.json:world.temperature_cache.BiomeMixin from mod radium, previously written by org.embeddedt.modernfix.common.mixin.perf.remove_biome_temperature_cache.BiomeMixin. Skipping method.
-[10Sep2025 04:09:47.646] [main/INFO] [com.dfsek.terra.AbstractPlatform/]: Initializing Terra...
-[10Sep2025 04:09:47.647] [main/INFO] [com.dfsek.terra.AbstractPlatform/]: Loading config.yml
-[10Sep2025 04:09:47.647] [main/INFO] [com.dfsek.terra.config.PluginConfigImpl/]: Loading config values from config.yml
-[10Sep2025 04:09:47.748] [main/WARN] [com.dfsek.terra.fabric.FabricPlatform/]: Mod additionalentityattributes, version 1.4.0.5+1.20.1 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
-[10Sep2025 04:09:47.750] [main/WARN] [com.dfsek.terra.fabric.FabricPlatform/]: Mod fabric_api, version 0.92.2+1.11.12+1.20.1 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
-[10Sep2025 04:09:47.750] [main/WARN] [com.dfsek.terra.fabric.FabricPlatform/]: Mod luphieclutteredmod, version 2.1 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
-[10Sep2025 04:09:47.750] [main/WARN] [com.dfsek.terra.fabric.FabricPlatform/]: Mod org_threadly_threadly, version 7.0 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
-[10Sep2025 04:09:47.751] [main/WARN] [com.dfsek.terra.fabric.FabricPlatform/]: Mod jei, version 15.20.0.112 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
-[10Sep2025 04:09:47.752] [main/WARN] [com.dfsek.terra.fabric.FabricPlatform/]: Mod clumps, version 12.0.0.3 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
-[10Sep2025 04:09:47.752] [main/WARN] [com.dfsek.terra.fabric.FabricPlatform/]: Mod personalplayer, version 1.20.x-1.0.0 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
-[10Sep2025 04:09:47.753] [main/WARN] [com.dfsek.terra.fabric.FabricPlatform/]: Mod origins_plus_plus, version 2.4-forge does not follow semantic versioning specification, Terra addons will be unable to depend on it.
-[10Sep2025 04:09:47.753] [main/WARN] [com.dfsek.terra.fabric.FabricPlatform/]: Mod lootr, version 0.7.35.92 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
-[10Sep2025 04:09:47.754] [main/WARN] [com.dfsek.terra.fabric.FabricPlatform/]: Mod fabric_permissions_api_v0, version 0.2-SNAPSHOT does not follow semantic versioning specification, Terra addons will be unable to depend on it.
-[10Sep2025 04:09:47.930] [main/INFO] [com.dfsek.terra.AbstractPlatform/]: Loading 183 Terra addons:
+[12Sep2025 00:29:03.763] [main/INFO] [dev.tonimatas.packetfixer.mixins.v1_19_4_forge.MixinPlugin/]: Packet Fixer forge 1.19.4-1.20.1 has been applied successfully.
+[12Sep2025 00:29:03.782] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
+[12Sep2025 00:29:04.858] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
+[12Sep2025 00:29:04.859] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
+[12Sep2025 00:29:04.859] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1
+[12Sep2025 00:29:04.860] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[12Sep2025 00:29:04.860] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[12Sep2025 00:29:04.860] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1
+[12Sep2025 00:29:05.079] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/RenderType for invalid dist DEDICATED_SERVER
+[12Sep2025 00:29:05.079] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/RenderType (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/RenderType for invalid dist DEDICATED_SERVER)
+[12Sep2025 00:29:05.081] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.RenderType was not found mixins.astrological.json:RenderTypeMixin from mod astrological
+[12Sep2025 00:29:05.382] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.blockstate.StateMixin' as option 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[12Sep2025 00:29:05.441] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as option 'mixin.world.player_chunk_tick' (added by mods [c2me]) disables it and children
+[12Sep2025 00:29:05.842] [main/INFO] [faster-random/]: Loading Faster Random.
+[12Sep2025 00:29:06.255] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[12Sep2025 00:29:07.475] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (23.86 s after launch)
+[12Sep2025 00:29:07.801] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
+[12Sep2025 00:29:07.802] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
+[12Sep2025 00:29:08.510] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[12Sep2025 00:29:08.510] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[12Sep2025 00:29:08.510] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[12Sep2025 00:29:08.510] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[12Sep2025 00:29:08.510] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[12Sep2025 00:29:09.671] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2192 milliseconds
+[12Sep2025 00:29:11.798] [main/INFO] [mixin/]: apoli.mixins.json:ItemSlotArgumentTypeAccessor from mod apoli->@Accessor[FIELD_GETTER]::getSlotNamesToSlotCommandId()Ljava/util/Map; should be static as its target is
+[12Sep2025 00:29:12.367] [main/WARN] [mixin/]: Method overwrite conflict for m_47505_ in lithium.mixins.json:world.temperature_cache.BiomeMixin from mod radium, previously written by org.embeddedt.modernfix.common.mixin.perf.remove_biome_temperature_cache.BiomeMixin. Skipping method.
+[12Sep2025 00:29:12.737] [main/INFO] [com.dfsek.terra.AbstractPlatform/]: Initializing Terra...
+[12Sep2025 00:29:12.738] [main/INFO] [com.dfsek.terra.AbstractPlatform/]: Loading config.yml
+[12Sep2025 00:29:12.738] [main/INFO] [com.dfsek.terra.config.PluginConfigImpl/]: Loading config values from config.yml
+[12Sep2025 00:29:12.878] [main/WARN] [com.dfsek.terra.fabric.FabricPlatform/]: Mod additionalentityattributes, version 1.4.0.5+1.20.1 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[12Sep2025 00:29:12.880] [main/WARN] [com.dfsek.terra.fabric.FabricPlatform/]: Mod fabric_api, version 0.92.2+1.11.12+1.20.1 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[12Sep2025 00:29:12.881] [main/WARN] [com.dfsek.terra.fabric.FabricPlatform/]: Mod luphieclutteredmod, version 2.1 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[12Sep2025 00:29:12.881] [main/WARN] [com.dfsek.terra.fabric.FabricPlatform/]: Mod org_threadly_threadly, version 7.0 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[12Sep2025 00:29:12.882] [main/WARN] [com.dfsek.terra.fabric.FabricPlatform/]: Mod jei, version 15.20.0.112 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[12Sep2025 00:29:12.882] [main/WARN] [com.dfsek.terra.fabric.FabricPlatform/]: Mod clumps, version 12.0.0.3 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[12Sep2025 00:29:12.882] [main/WARN] [com.dfsek.terra.fabric.FabricPlatform/]: Mod personalplayer, version 1.20.x-1.0.0 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[12Sep2025 00:29:12.883] [main/WARN] [com.dfsek.terra.fabric.FabricPlatform/]: Mod lootr, version 0.7.35.92 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[12Sep2025 00:29:12.884] [main/WARN] [com.dfsek.terra.fabric.FabricPlatform/]: Mod fabric_permissions_api_v0, version 0.2-SNAPSHOT does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[12Sep2025 00:29:13.278] [main/INFO] [com.dfsek.terra.AbstractPlatform/]: Loading 184 Terra addons:
         - biome-provider-extrusion@1.0.0-BETA+73baaec6c
         - biome-provider-image@1.0.0-BETA+73baaec6c
         - biome-provider-image-v2@1.0.0-BETA+73baaec6c
@@ -272,6 +274,7 @@
         - fabric:amecsapi@1.5.3+mc1.20-pre1
         - fabric:apoli@1.20.1-2.9.0.8
         - fabric:architectury@9.2.14
+        - fabric:astrological@1.2.0
         - fabric:balm@7.3.34
         - fabric:c2me@0.2.0+alpha.11.16
         - fabric:c2me_base@0.2.0+alpha.11.16
@@ -378,6 +381,7 @@
         - fabric:kotlinforforge@4.11.0
         - fabric:krypton@0.2.3
         - fabric:kuma_api@20.1.10
+        - fabric:lios_overhauled_villages@1.18.2-1.21.6-v0.0.9
         - fabric:mixinextras@0.2.0-beta.8
         - fabric:modernfix@5.21.0+mc1.20.1
         - fabric:modernminecarts@1.1.0-1.20.1
@@ -400,7 +404,6 @@
         - fabric:org_jetbrains_kotlinx_kotlinx_serialization_json_jvm@1.7.3
         - fabric:origins@1.20.1-1.10.0.9
         - fabric:packetfixer@3.1.4
-        - fabric:pehkui@3.8.2+1.20.1-forge
         - fabric:puzzlesaccessapi@20.1.1
         - fabric:puzzleslib@8.1.32
         - fabric:pyrellium@0.2.2
@@ -431,60 +434,33 @@
         - terra@1.0.0
         - terra-fabric@1.0.0
         - terrascript-function-sampler@1.0.0-BETA+73baaec6c
-[10Sep2025 04:09:48.021] [main/WARN] [com.dfsek.terra.addons.biome.pipeline.BiomePipelineAddon/]: The biome-provider-pipeline addon is deprecated and scheduled for removal in Terra 7.0. It is recommended to use the biome-provider-pipeline-v2 addon for future pack development instead.
-[10Sep2025 04:09:48.022] [main/WARN] [com.dfsek.terra.addons.biome.image.ImageBiomeProviderAddon/]: The biome-provider-image addon is deprecated and scheduled for removal in Terra 7.0. It is recommended to use the biome-provider-image-v2 addon for future pack development instead.
-[10Sep2025 04:09:48.024] [main/INFO] [com.dfsek.terra.AbstractPlatform/]: Terra addons successfully loaded.
-[10Sep2025 04:09:48.024] [main/INFO] [com.dfsek.terra.AbstractPlatform/]: Finished initialization.
-[10Sep2025 04:09:48.024] [main/INFO] [com.dfsek.terra.fabric.FabricEntryPoint/]: Initializing Terra Fabric mod...
-[10Sep2025 04:09:48.177] [main/INFO] [personalplayer/]: Registering items for personalplayer
-[10Sep2025 04:09:48.178] [main/INFO] [personalplayer/]: Adding personalplayer items to vanilla item groups
-[10Sep2025 04:09:48.705] [modloading-worker-0/INFO] [dev.su5ed.sinytra.connectorextras.terrablenderbridge.TerraBlenderBridge/]: Injecting TerraBlender API classes
-[10Sep2025 04:09:48.706] [modloading-worker-0/WARN] [dev.su5ed.sinytra.connectorextras.util.HackyModuleInjector/]: Module terrablender is not present, skipping class injection
-[10Sep2025 04:09:48.957] [modloading-worker-0/INFO] [io.github.apace100.origins.Origins/]: Origins 1.20.1-1.10.0.9 is initializing. Have fun!
-[10Sep2025 04:09:49.173] [modloading-worker-0/INFO] [noisium/]: Loading Noisium.
-[10Sep2025 04:09:49.333] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[10Sep2025 04:09:49.415] [modloading-worker-0/INFO] [io.github.apace100.apoli.Apoli/]: Apoli 1.20.1-2.9.0.8 has initialized. Ready to power up your game!
-[10Sep2025 04:09:49.430] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[10Sep2025 04:09:49.431] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[10Sep2025 04:09:49.499] [modloading-worker-0/INFO] [Calio/]: Calio 1.20.1-1.11.0.5 initializing...
-[10Sep2025 04:09:49.619] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
-[10Sep2025 04:09:49.917] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[10Sep2025 04:09:50.128] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
-[10Sep2025 04:09:50.129] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
-[10Sep2025 04:09:51.892] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/The-Devil-Town/servidor_minecraft/config/apoli-common.toml is not correct. Correcting
-[10Sep2025 04:09:51.893] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key experiments was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:09:51.893] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key experiments.hud was corrected from null to its default, false. 
-[10Sep2025 04:09:51.896] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/The-Devil-Town/servidor_minecraft/config/origins-common.toml is not correct. Correcting
-[10Sep2025 04:09:51.897] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key origins was corrected from null to its default, SimpleConfig:{}. 
-[10Sep2025 04:09:51.898] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/The-Devil-Town/servidor_minecraft/config/pehkui-common.toml is not correct. Correcting
-[10Sep2025 04:09:51.899] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:09:51.899] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.scaledFallDamage was corrected from null to its default, true. 
-[10Sep2025 04:09:51.899] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.scaledMotion was corrected from null to its default, true. 
-[10Sep2025 04:09:51.899] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.scaledReach was corrected from null to its default, true. 
-[10Sep2025 04:09:51.899] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.scaledAttack was corrected from null to its default, true. 
-[10Sep2025 04:09:51.899] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.scaledDefense was corrected from null to its default, true. 
-[10Sep2025 04:09:51.899] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.scaledHealth was corrected from null to its default, true. 
-[10Sep2025 04:09:51.899] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.scaledItemDrops was corrected from null to its default, true. 
-[10Sep2025 04:09:51.900] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.scaledProjectiles was corrected from null to its default, true. 
-[10Sep2025 04:09:51.900] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.scaledExplosions was corrected from null to its default, true. 
-[10Sep2025 04:09:51.901] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.keepAllScalesOnRespawn was corrected from null to its default, false. 
-[10Sep2025 04:09:51.901] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.accurateNetherPortals was corrected from null to its default, true. 
-[10Sep2025 04:09:51.902] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.scalesKeptOnRespawn was corrected from null to its default, []. 
-[10Sep2025 04:09:51.902] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.enableCommands was corrected from null to its default, true. 
-[10Sep2025 04:09:51.903] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.enableDebugCommands was corrected from null to its default, false. 
-[10Sep2025 04:09:51.907] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/The-Devil-Town/servidor_minecraft/config/calio-common.toml is not correct. Correcting
-[10Sep2025 04:09:51.908] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:09:51.908] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug.registry_logging was corrected from null to its default, false. 
-[10Sep2025 04:09:51.908] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug.reduced_logging was corrected from null to its default, true. 
-[10Sep2025 04:09:51.908] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug.debug_mode was corrected from null to its default, false. 
-[10Sep2025 04:09:52.057] [Thread-1/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
-[10Sep2025 04:09:52.135] [modloading-worker-0/INFO] [me.steinborn.krypton.mod.shared.Krypton/]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
-[10Sep2025 04:09:52.254] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [saturn] Starting version check at https://github.com/AbdElAziz333/Saturn/raw/mc1.20.1/dev/updates.json
-[10Sep2025 04:09:52.589] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
-[10Sep2025 04:09:52.592] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[10Sep2025 04:09:52.602] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[10Sep2025 04:09:52.606] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[10Sep2025 04:09:52.948] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[12Sep2025 00:29:13.308] [main/WARN] [com.dfsek.terra.addons.biome.pipeline.BiomePipelineAddon/]: The biome-provider-pipeline addon is deprecated and scheduled for removal in Terra 7.0. It is recommended to use the biome-provider-pipeline-v2 addon for future pack development instead.
+[12Sep2025 00:29:13.310] [main/WARN] [com.dfsek.terra.addons.biome.image.ImageBiomeProviderAddon/]: The biome-provider-image addon is deprecated and scheduled for removal in Terra 7.0. It is recommended to use the biome-provider-image-v2 addon for future pack development instead.
+[12Sep2025 00:29:13.311] [main/INFO] [com.dfsek.terra.AbstractPlatform/]: Terra addons successfully loaded.
+[12Sep2025 00:29:13.311] [main/INFO] [com.dfsek.terra.AbstractPlatform/]: Finished initialization.
+[12Sep2025 00:29:13.311] [main/INFO] [com.dfsek.terra.fabric.FabricEntryPoint/]: Initializing Terra Fabric mod...
+[12Sep2025 00:29:13.445] [main/INFO] [personalplayer/]: Registering items for personalplayer
+[12Sep2025 00:29:13.446] [main/INFO] [personalplayer/]: Adding personalplayer items to vanilla item groups
+[12Sep2025 00:29:14.013] [modloading-worker-0/INFO] [dev.su5ed.sinytra.connectorextras.terrablenderbridge.TerraBlenderBridge/]: Injecting TerraBlender API classes
+[12Sep2025 00:29:14.014] [modloading-worker-0/WARN] [dev.su5ed.sinytra.connectorextras.util.HackyModuleInjector/]: Module terrablender is not present, skipping class injection
+[12Sep2025 00:29:14.189] [modloading-worker-0/INFO] [io.github.apace100.origins.Origins/]: Origins 1.20.1-1.10.0.9 is initializing. Have fun!
+[12Sep2025 00:29:14.315] [modloading-worker-0/INFO] [noisium/]: Loading Noisium.
+[12Sep2025 00:29:14.420] [modloading-worker-0/INFO] [io.github.apace100.apoli.Apoli/]: Apoli 1.20.1-2.9.0.8 has initialized. Ready to power up your game!
+[12Sep2025 00:29:14.456] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[12Sep2025 00:29:14.465] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[12Sep2025 00:29:14.465] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[12Sep2025 00:29:14.497] [modloading-worker-0/INFO] [Calio/]: Calio 1.20.1-1.11.0.5 initializing...
+[12Sep2025 00:29:14.564] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[12Sep2025 00:29:14.948] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[12Sep2025 00:29:15.127] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
+[12Sep2025 00:29:15.128] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
+[12Sep2025 00:29:17.514] [modloading-worker-0/INFO] [me.steinborn.krypton.mod.shared.Krypton/]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
+[12Sep2025 00:29:17.848] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [saturn] Starting version check at https://github.com/AbdElAziz333/Saturn/raw/mc1.20.1/dev/updates.json
+[12Sep2025 00:29:18.035] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[12Sep2025 00:29:18.041] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[12Sep2025 00:29:18.059] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[12Sep2025 00:29:18.063] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[12Sep2025 00:29:18.418] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 9 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -499,334 +475,173 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[10Sep2025 04:09:52.950] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [doggytalents] Starting version check at https://raw.githubusercontent.com/DashieDev/DoggyTalentsNext/refs/heads/1.21-master/check_for_update/update.json
-[10Sep2025 04:09:53.108] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [doggytalents] Found status: BETA Current: 1.18.60 Target: 1.18.60
-[10Sep2025 04:09:53.108] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Starting version check at https://api.modrinth.com/updates/radium/forge_updates.json
-[10Sep2025 04:09:53.175] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[10Sep2025 04:09:53.294] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Found status: AHEAD Current: 0.12.4+git.26c9d8e Target: null
-[10Sep2025 04:09:53.295] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
-[10Sep2025 04:09:53.305] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
-[10Sep2025 04:09:53.376] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
-mixinextras (version 0.4.1 -> 0.2.0-beta.8)
-Things may not work well.
-[10Sep2025 04:09:53.451] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:opal_block Expected: 1046 Got: 1687
-[10Sep2025 04:09:53.451] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:small_opal_bud Expected: 1047 Got: 1688
-[10Sep2025 04:09:53.451] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:medium_opal_bud Expected: 1048 Got: 1689
-[10Sep2025 04:09:53.451] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:large_opal_bud Expected: 1049 Got: 1690
-[10Sep2025 04:09:53.452] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:opal_cluster Expected: 1050 Got: 1691
-[10Sep2025 04:09:53.452] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:budding_opal Expected: 1051 Got: 1692
-[10Sep2025 04:09:53.452] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:clear_amethyst_block Expected: 1052 Got: 1693
-[10Sep2025 04:09:53.452] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:clear_opal_block Expected: 1053 Got: 1694
-[10Sep2025 04:09:53.452] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:freezing_ice Expected: 1054 Got: 1695
-[10Sep2025 04:09:53.452] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:silk_block Expected: 1055 Got: 1696
-[10Sep2025 04:09:53.453] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:silk_carpet Expected: 1056 Got: 1697
-[10Sep2025 04:09:53.453] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:hanging_silk Expected: 1057 Got: 1698
-[10Sep2025 04:09:53.453] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:netherrack_mycelium Expected: 1058 Got: 1699
-[10Sep2025 04:09:53.453] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:brown_bounceshroom Expected: 1059 Got: 1700
-[10Sep2025 04:09:53.453] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:red_bounceshroom Expected: 1060 Got: 1701
-[10Sep2025 04:09:53.454] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:brown_wall_mushroom Expected: 1061 Got: 1702
-[10Sep2025 04:09:53.454] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:red_wall_mushroom Expected: 1062 Got: 1703
-[10Sep2025 04:09:53.454] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:brown_shelf_mushroom Expected: 1063 Got: 1704
-[10Sep2025 04:09:53.454] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:red_shelf_mushroom Expected: 1064 Got: 1705
-[10Sep2025 04:09:53.454] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:spores Expected: 1065 Got: 1706
-[10Sep2025 04:09:53.454] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:dead_roots Expected: 1066 Got: 1707
-[10Sep2025 04:09:53.454] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:dead_sprouts Expected: 1067 Got: 1708
-[10Sep2025 04:09:53.455] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:ghostly_leaves Expected: 1068 Got: 1709
-[10Sep2025 04:09:53.455] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:headstone Expected: 1069 Got: 1710
-[10Sep2025 04:09:53.455] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:bone Expected: 1070 Got: 1711
-[10Sep2025 04:09:53.455] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:bomb_plant Expected: 1071 Got: 1712
-[10Sep2025 04:09:53.455] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:quartz_crystal Expected: 1072 Got: 1713
-[10Sep2025 04:09:53.455] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:blackstone_rock Expected: 1073 Got: 1714
-[10Sep2025 04:09:53.455] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:burning_nylium Expected: 1074 Got: 1715
-[10Sep2025 04:09:53.455] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:burning_leaves Expected: 1075 Got: 1716
-[10Sep2025 04:09:53.455] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:burning_sapling Expected: 1076 Got: 1717
-[10Sep2025 04:09:53.455] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:potted_burning_sapling Expected: 1077 Got: 1718
-[10Sep2025 04:09:53.456] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:burning_log Expected: 1078 Got: 1719
-[10Sep2025 04:09:53.456] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:burning_wood Expected: 1079 Got: 1720
-[10Sep2025 04:09:53.456] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:stripped_burning_log Expected: 1080 Got: 1721
-[10Sep2025 04:09:53.456] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:stripped_burning_wood Expected: 1081 Got: 1722
-[10Sep2025 04:09:53.456] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:burning_planks Expected: 1082 Got: 1723
-[10Sep2025 04:09:53.456] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:burning_stairs Expected: 1083 Got: 1724
-[10Sep2025 04:09:53.456] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:burning_slab Expected: 1084 Got: 1725
-[10Sep2025 04:09:53.456] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:burning_fence Expected: 1085 Got: 1726
-[10Sep2025 04:09:53.456] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:burning_fence_gate Expected: 1086 Got: 1727
-[10Sep2025 04:09:53.456] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:burning_door Expected: 1087 Got: 1728
-[10Sep2025 04:09:53.456] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:burning_trapdoor Expected: 1088 Got: 1729
-[10Sep2025 04:09:53.457] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:burning_pressure_plate Expected: 1089 Got: 1730
-[10Sep2025 04:09:53.457] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:burning_button Expected: 1090 Got: 1731
-[10Sep2025 04:09:53.457] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:burning_sign Expected: 1091 Got: 1732
-[10Sep2025 04:09:53.457] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:burning_wall_sign Expected: 1092 Got: 1733
-[10Sep2025 04:09:53.457] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:burning_hanging_sign Expected: 1093 Got: 1734
-[10Sep2025 04:09:53.457] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:burning_wall_hanging_sign Expected: 1094 Got: 1735
-[10Sep2025 04:09:53.457] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:burning_roots Expected: 1095 Got: 1736
-[10Sep2025 04:09:53.458] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:burning_sprouts Expected: 1096 Got: 1737
-[10Sep2025 04:09:53.458] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:burning_vines Expected: 1097 Got: 1738
-[10Sep2025 04:09:53.458] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:pyrolily Expected: 1098 Got: 1739
-[10Sep2025 04:09:53.458] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: pyrellium:potted_pyrolily Expected: 1099 Got: 1740
-[10Sep2025 04:09:53.458] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: origins:temporary_cobweb Expected: 1646 Got: 1741
-[10Sep2025 04:09:53.459] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:opal Expected: 1255 Got: 2196
-[10Sep2025 04:09:53.459] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:opal_spyglass Expected: 1256 Got: 2197
-[10Sep2025 04:09:53.460] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:opal_tiara Expected: 1257 Got: 2198
-[10Sep2025 04:09:53.460] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:amethyst_arrow Expected: 1258 Got: 2199
-[10Sep2025 04:09:53.460] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:opal_arrow Expected: 1259 Got: 2200
-[10Sep2025 04:09:53.460] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:bomb_flower Expected: 1260 Got: 2201
-[10Sep2025 04:09:53.460] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:mushroom_cap Expected: 1261 Got: 2202
-[10Sep2025 04:09:53.461] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:opal_block Expected: 1381 Got: 2203
-[10Sep2025 04:09:53.461] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:small_opal_bud Expected: 1382 Got: 2204
-[10Sep2025 04:09:53.461] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:medium_opal_bud Expected: 1383 Got: 2205
-[10Sep2025 04:09:53.461] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:large_opal_bud Expected: 1384 Got: 2206
-[10Sep2025 04:09:53.461] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:opal_cluster Expected: 1385 Got: 2207
-[10Sep2025 04:09:53.462] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:budding_opal Expected: 1386 Got: 2208
-[10Sep2025 04:09:53.462] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:clear_amethyst_block Expected: 1387 Got: 2209
-[10Sep2025 04:09:53.462] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:clear_opal_block Expected: 1388 Got: 2210
-[10Sep2025 04:09:53.462] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:freezing_ice Expected: 1389 Got: 2211
-[10Sep2025 04:09:53.462] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:silk_block Expected: 1390 Got: 2212
-[10Sep2025 04:09:53.462] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:silk_carpet Expected: 1391 Got: 2213
-[10Sep2025 04:09:53.462] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:hanging_silk Expected: 1392 Got: 2214
-[10Sep2025 04:09:53.463] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:netherrack_mycelium Expected: 1393 Got: 2215
-[10Sep2025 04:09:53.463] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:brown_bounceshroom Expected: 1394 Got: 2216
-[10Sep2025 04:09:53.463] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:red_bounceshroom Expected: 1395 Got: 2217
-[10Sep2025 04:09:53.463] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:brown_shelf_mushroom Expected: 1396 Got: 2218
-[10Sep2025 04:09:53.463] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:red_shelf_mushroom Expected: 1397 Got: 2219
-[10Sep2025 04:09:53.463] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:spores Expected: 1398 Got: 2220
-[10Sep2025 04:09:53.463] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:dead_roots Expected: 1399 Got: 2221
-[10Sep2025 04:09:53.463] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:dead_sprouts Expected: 1400 Got: 2222
-[10Sep2025 04:09:53.463] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:ghostly_leaves Expected: 1401 Got: 2223
-[10Sep2025 04:09:53.463] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:headstone Expected: 1402 Got: 2224
-[10Sep2025 04:09:53.463] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:bomb_plant Expected: 1403 Got: 2225
-[10Sep2025 04:09:53.463] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:quartz_crystal Expected: 1404 Got: 2226
-[10Sep2025 04:09:53.464] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:blackstone_rock Expected: 1405 Got: 2227
-[10Sep2025 04:09:53.464] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:burning_nylium Expected: 1406 Got: 2228
-[10Sep2025 04:09:53.464] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:burning_leaves Expected: 1407 Got: 2229
-[10Sep2025 04:09:53.464] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:burning_sapling Expected: 1408 Got: 2230
-[10Sep2025 04:09:53.464] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:burning_log Expected: 1409 Got: 2231
-[10Sep2025 04:09:53.465] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:burning_wood Expected: 1410 Got: 2232
-[10Sep2025 04:09:53.465] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:stripped_burning_log Expected: 1411 Got: 2233
-[10Sep2025 04:09:53.465] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:stripped_burning_wood Expected: 1412 Got: 2234
-[10Sep2025 04:09:53.465] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:burning_planks Expected: 1413 Got: 2235
-[10Sep2025 04:09:53.466] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:burning_stairs Expected: 1414 Got: 2236
-[10Sep2025 04:09:53.466] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:burning_slab Expected: 1415 Got: 2237
-[10Sep2025 04:09:53.466] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:burning_fence Expected: 1416 Got: 2238
-[10Sep2025 04:09:53.466] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:burning_fence_gate Expected: 1417 Got: 2239
-[10Sep2025 04:09:53.466] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:burning_door Expected: 1418 Got: 2240
-[10Sep2025 04:09:53.466] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:burning_trapdoor Expected: 1419 Got: 2241
-[10Sep2025 04:09:53.466] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:burning_pressure_plate Expected: 1420 Got: 2242
-[10Sep2025 04:09:53.466] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:burning_button Expected: 1421 Got: 2243
-[10Sep2025 04:09:53.467] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:burning_roots Expected: 1422 Got: 2244
-[10Sep2025 04:09:53.467] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:burning_sprouts Expected: 1423 Got: 2245
-[10Sep2025 04:09:53.467] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:burning_vines Expected: 1424 Got: 2246
-[10Sep2025 04:09:53.467] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:pyrolily Expected: 1425 Got: 2247
-[10Sep2025 04:09:53.467] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:burning_sign Expected: 1426 Got: 2248
-[10Sep2025 04:09:53.467] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:burning_hanging_sign Expected: 1427 Got: 2249
-[10Sep2025 04:09:53.467] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:burning_boat Expected: 1428 Got: 2250
-[10Sep2025 04:09:53.467] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: pyrellium:burning_chest_boat Expected: 1429 Got: 2251
-[10Sep2025 04:09:53.467] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: origins:orb_of_origin Expected: 2129 Got: 2252
-[10Sep2025 04:09:53.468] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: pyrellium:crystal_arrow Expected: 125 Got: 149
-[10Sep2025 04:09:53.468] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: pyrellium:bomb_flower Expected: 126 Got: 150
-[10Sep2025 04:09:53.468] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: pyrellium:burning_boat Expected: 127 Got: 151
-[10Sep2025 04:09:53.469] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: pyrellium:burning_chest_boat Expected: 128 Got: 152
-[10Sep2025 04:09:53.469] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: origins:enderian_pearl Expected: 158 Got: 153
-[10Sep2025 04:09:53.613] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/The-Devil-Town/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23201!/assets/.mcassetsroot' uses unexpected schema
-[10Sep2025 04:09:53.614] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/The-Devil-Town/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23201!/data/.mcassetsroot' uses unexpected schema
-[10Sep2025 04:09:53.769] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA_OUTDATED Current: 12.0.0.3 Target: 12.0.0.4
-[10Sep2025 04:09:53.769] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
-[10Sep2025 04:09:53.783] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 20.1.1 Target: null
-[10Sep2025 04:09:53.783] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[10Sep2025 04:09:53.968] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[10Sep2025 04:09:53.968] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Starting version check at https://update.maxhenkel.de/forge/trade_cycling
-[10Sep2025 04:09:54.578] [main/INFO] [com.dfsek.terra.AbstractPlatform/]: Loading config packs...
-[10Sep2025 04:09:54.578] [main/INFO] [com.dfsek.terra.registry.master.ConfigRegistry/]: Loading ZIP archive: Hydraxia_v0.2.2_Pre-Release.zip
-[10Sep2025 04:09:54.834] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Found status: AHEAD Current: 1.20.1-1.0.18 Target: null
-[10Sep2025 04:09:54.834] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forgeconfigscreens] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/forgeconfigscreens.json
-[10Sep2025 04:09:54.954] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forgeconfigscreens] Found status: UP_TO_DATE Current: 8.0.2 Target: null
-[10Sep2025 04:09:54.954] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
-[10Sep2025 04:09:54.970] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.32 Target: 8.1.33
-[10Sep2025 04:09:55.198] [main/INFO] [com.dfsek.terra.config.pack.ConfigPackImpl/]: Loading config pack "HYDRAXIA:HYDRAXIA"
-[10Sep2025 04:09:55.764] [main/INFO] [com.dfsek.terra.config.pack.ConfigPackImpl/]: Loaded config pack "HYDRAXIA:HYDRAXIA" v0.2.2 by Jaddot in 1176.623232ms.
-[10Sep2025 04:09:55.856] [main/INFO] [com.dfsek.terra.registry.master.ConfigRegistry/]: Loading ZIP archive: default.zip
-[10Sep2025 04:09:56.152] [main/INFO] [com.dfsek.terra.config.pack.ConfigPackImpl/]: Loading config pack "OVERWORLD:OVERWORLD"
-[10Sep2025 04:09:57.230] [main/INFO] [com.dfsek.terra.config.pack.ConfigPackImpl/]: Loaded config pack "OVERWORLD:OVERWORLD" v1.3.3 by Astrash, Sancires, Aureus in 1372.537731ms.
-[10Sep2025 04:09:57.269] [main/INFO] [com.dfsek.terra.AbstractPlatform/]: Loaded packs.
-[10Sep2025 04:09:57.270] [main/INFO] [com.dfsek.terra.lifecycle.util.BiomeUtil/]: Registering biomes...
-[10Sep2025 04:09:57.287] [main/INFO] [com.dfsek.terra.lifecycle.util.BiomeUtil/]: Terra biomes registered.
-[10Sep2025 04:09:57.292] [main/INFO] [com.dfsek.terra.mod.generation.MinecraftChunkGeneratorWrapper/]: Loading world with config pack HYDRAXIA
-[10Sep2025 04:09:57.292] [main/INFO] [com.dfsek.terra.mod.util.PresetUtil/]: Created world type "terra:hydraxia/hydraxia"
-[10Sep2025 04:09:57.294] [main/INFO] [com.dfsek.terra.mod.generation.MinecraftChunkGeneratorWrapper/]: Loading world with config pack OVERWORLD
-[10Sep2025 04:09:57.295] [main/INFO] [com.dfsek.terra.mod.util.PresetUtil/]: Created world type "terra:overworld/overworld"
-[10Sep2025 04:09:57.334] [main/INFO] [com.dfsek.terra.mod.generation.MinecraftChunkGeneratorWrapper/]: Loading world with config pack HYDRAXIA
-[10Sep2025 04:09:58.005] [main/INFO] [Calio/]: CDRM Initialized with 16 registries
-[10Sep2025 04:09:58.793] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
-[10Sep2025 04:09:58.825] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement compact_storage:storage_on_the_move: Unsupported icon type, currently only items are supported (add 'item' key)
-[10Sep2025 04:09:58.838] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement compact_storage:drum_me_up: Unsupported icon type, currently only items are supported (add 'item' key)
-[10Sep2025 04:09:58.877] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement compact_storage:barrel_me_this: Unsupported icon type, currently only items are supported (add 'item' key)
-[10Sep2025 04:09:58.883] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement compact_storage:compacting_your_storage: Unsupported icon type, currently only items are supported (add 'item' key)
-[10Sep2025 04:09:58.904] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1452 advancements
-[10Sep2025 04:09:59.666] [main/INFO] [com.dfsek.terra.mod.util.MinecraftUtil/]: Injecting flora into Terra biomes...
-[10Sep2025 04:09:59.727] [main/INFO] [com.dfsek.terra.mod.util.TagUtil/]: Doing preset tag garbage....
-[10Sep2025 04:09:59.729] [main/INFO] [com.dfsek.terra.mod.util.TagUtil/]: Doing biome tag garbage....
-[10Sep2025 04:09:59.766] [main/INFO] [com.dfsek.terra.mod.util.MinecraftUtil/]: Injecting flora into Terra biomes...
-[10Sep2025 04:09:59.891] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[10Sep2025 04:09:59.895] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[10Sep2025 04:09:59.895] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[10Sep2025 04:09:59.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[10Sep2025 04:09:59.985] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[10Sep2025 04:10:00.004] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[10Sep2025 04:10:00.112] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10Sep2025 04:10:00.112] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[10Sep2025 04:10:00.113] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10Sep2025 04:10:00.113] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[10Sep2025 04:10:00.128] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/apoli-server.toml is not correct. Correcting
-[10Sep2025 04:10:00.128] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key execute_command was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.129] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key execute_command.permission_level was corrected from null to its default, 2. 
-[10Sep2025 04:10:00.129] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key execute_command.show_output was corrected from null to its default, false. 
-[10Sep2025 04:10:00.129] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key prevent_usage was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.130] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key prevent_usage.enforce_food_restrictions was corrected from null to its default, true. 
-[10Sep2025 04:10:00.131] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modify_player_spawn was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.131] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modify_player_spawn.separate_finding_thread was corrected from null to its default, true. 
-[10Sep2025 04:10:00.140] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/pehkui-server.toml is not correct. Correcting
-[10Sep2025 04:10:00.141] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.141] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.142] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.base was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.142] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.base.minimum was corrected from null to its default, 1.2621774483536189E-29. 
-[10Sep2025 04:10:00.143] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.base.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.143] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.width was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.144] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.width.minimum was corrected from null to its default, 1.2621774483536189E-29. 
-[10Sep2025 04:10:00.144] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.width.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.145] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.height was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.145] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.height.minimum was corrected from null to its default, 1.2621774483536189E-29. 
-[10Sep2025 04:10:00.146] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.height.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.146] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.eye_height was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.147] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.eye_height.minimum was corrected from null to its default, 1.2621774483536189E-29. 
-[10Sep2025 04:10:00.147] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.eye_height.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.148] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.hitbox_width was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.148] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.hitbox_width.minimum was corrected from null to its default, 1.2621774483536189E-29. 
-[10Sep2025 04:10:00.149] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.hitbox_width.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.149] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.hitbox_height was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.150] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.hitbox_height.minimum was corrected from null to its default, 1.2621774483536189E-29. 
-[10Sep2025 04:10:00.150] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.hitbox_height.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.151] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.interaction_box_width was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.151] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.interaction_box_width.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.153] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.interaction_box_width.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.155] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.interaction_box_height was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.156] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.interaction_box_height.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.156] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.interaction_box_height.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.156] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.model_width was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.156] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.model_width.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.157] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.model_width.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.157] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.model_height was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.157] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.model_height.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.157] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.model_height.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.158] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.third_person was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.158] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.third_person.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.158] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.third_person.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.158] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.motion was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.159] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.motion.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.159] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.motion.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.159] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.falling was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.160] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.falling.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.160] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.falling.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.160] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.step_height was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.160] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.step_height.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.161] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.step_height.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.161] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.view_bobbing was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.162] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.view_bobbing.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.162] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.view_bobbing.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.164] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.visibility was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.164] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.visibility.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.165] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.visibility.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.165] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.jump_height was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.165] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.jump_height.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.166] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.jump_height.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.166] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.flight was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.166] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.flight.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.166] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.flight.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.167] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.reach was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.167] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.reach.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.168] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.reach.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.168] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.block_reach was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.block_reach.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.block_reach.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.entity_reach was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.entity_reach.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.entity_reach.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.mining_speed was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.mining_speed.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.mining_speed.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.attack_speed was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.attack_speed.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.attack_speed.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.knockback was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.knockback.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.173] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.knockback.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.174] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.attack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.174] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.attack.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.174] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.attack.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.174] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.defense was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.defense.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.defense.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.health was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.health.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.health.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.drops was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.drops.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.177] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.drops.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.178] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.held_item was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.178] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.held_item.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.179] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.held_item.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.179] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.projectiles was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.179] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.projectiles.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.projectiles.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.explosions was corrected from null to its default, SimpleCommentedConfig:{}. 
-[10Sep2025 04:10:00.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.explosions.minimum was corrected from null to its default, 1.401298464324817E-45. 
-[10Sep2025 04:10:00.181] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.scale_limits.explosions.maximum was corrected from null to its default, 3.4028234663852886E38. 
-[10Sep2025 04:10:00.247] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[10Sep2025 04:10:00.324] [Server thread/INFO] [CheckedThreadLocalRandom/]: Enforcing safe world random access
-[10Sep2025 04:10:00.562] [Server thread/INFO] [com.dfsek.terra.mod.util.SeedHack/]: Registered seed 8431225196375393080 to sampler 1
-[10Sep2025 04:10:00.736] [Server thread/INFO] [com.dfsek.terra.mod.util.SeedHack/]: Registered seed 8431225196375393080 to sampler -325292877
-[10Sep2025 04:10:08.370] [Server thread/INFO] [com.dfsek.terra.mod.util.SeedHack/]: Registered seed 8431225196375393080 to sampler 346405365
-[10Sep2025 04:10:08.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[10Sep2025 04:10:08.807] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Sep2025 04:10:08.889] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Sep2025 04:10:09.382] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Sep2025 04:10:09.882] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[10Sep2025 04:10:10.561] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[10Sep2025 04:10:10.883] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[10Sep2025 04:10:11.382] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[10Sep2025 04:10:11.882] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
-[10Sep2025 04:10:12.382] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
-[10Sep2025 04:10:12.883] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
-[10Sep2025 04:10:13.438] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
-[10Sep2025 04:10:13.883] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 66%
-[10Sep2025 04:10:14.249] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5868 ms
-[10Sep2025 04:10:14.250] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (14.124s)! For help, type "help"
-[10Sep2025 04:10:14.290] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[10Sep2025 04:10:14.292] [Server thread/WARN] [ModernFix/]: Dedicated server took 47.586 seconds to load
-[10Sep2025 04:10:28.751] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 0
-[10Sep2025 04:10:28.768] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 1
-[10Sep2025 04:10:28.822] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 2
-[10Sep2025 04:10:28.867] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 3
-[10Sep2025 04:10:28.918] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 4
-[10Sep2025 04:10:28.968] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 5
-[10Sep2025 04:10:29.017] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 6
-[10Sep2025 04:10:29.067] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 7
-[10Sep2025 04:10:29.116] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 8
-[10Sep2025 04:10:29.168] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 9
-[10Sep2025 04:10:29.217] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 10
-[10Sep2025 04:10:29.270] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 11
-[10Sep2025 04:10:30.359] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 12
-[10Sep2025 04:10:30.775] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 13
-[10Sep2025 04:10:30.779] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 14
-[10Sep2025 04:10:30.779] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 15
-[10Sep2025 04:10:30.923] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 16
-[10Sep2025 04:10:32.943] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Amalgam5006X[/127.86.194.137:60935] logged in with entity id 147 at (-413.8568311965706, 70.625, -270.96518207135364)
-[10Sep2025 04:10:33.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Amalgam5006X joined the game
-[10Sep2025 04:10:33.265] [Server thread/INFO] [Jade/]: Syncing config to Amalgam5006X (e48d4058-89e0-3edb-ae78-b1100f9f0fc2)
-[10Sep2025 04:10:35.695] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[10Sep2025 04:12:44.059] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/194, l='ServerLevel[Mundo nuevo]', x=-409.24, y=78.58, z=-294.33] died, message: 'Unemployed was slain by Zombie'
-[10Sep2025 04:14:42.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
-[10Sep2025 04:14:56.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 6000
-[10Sep2025 04:18:04.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Expected float
-[10Sep2025 04:18:04.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: time set sunset<--[HERE]
-[10Sep2025 04:19:00.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Expected float
-[10Sep2025 04:19:00.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: time set sunset<--[HERE]
-[10Sep2025 04:19:07.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[12Sep2025 00:29:18.419] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [doggytalents] Starting version check at https://raw.githubusercontent.com/DashieDev/DoggyTalentsNext/refs/heads/1.21-master/check_for_update/update.json
+[12Sep2025 00:29:18.479] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [doggytalents] Found status: BETA Current: 1.18.60 Target: 1.18.60
+[12Sep2025 00:29:18.479] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Starting version check at https://api.modrinth.com/updates/radium/forge_updates.json
+[12Sep2025 00:29:18.669] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Found status: AHEAD Current: 0.12.4+git.26c9d8e Target: null
+[12Sep2025 00:29:18.669] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[12Sep2025 00:29:18.676] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12Sep2025 00:29:18.788] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[12Sep2025 00:29:19.006] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/The-Devil-Town/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23201!/assets/.mcassetsroot' uses unexpected schema
+[12Sep2025 00:29:19.006] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/The-Devil-Town/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23201!/data/.mcassetsroot' uses unexpected schema
+[12Sep2025 00:29:19.144] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA_OUTDATED Current: 12.0.0.3 Target: 12.0.0.4
+[12Sep2025 00:29:19.145] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[12Sep2025 00:29:19.160] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 20.1.1 Target: null
+[12Sep2025 00:29:19.160] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[12Sep2025 00:29:19.327] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[12Sep2025 00:29:19.328] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Starting version check at https://update.maxhenkel.de/forge/trade_cycling
+[12Sep2025 00:29:19.992] [main/INFO] [com.dfsek.terra.AbstractPlatform/]: Loading config packs...
+[12Sep2025 00:29:19.993] [main/INFO] [com.dfsek.terra.registry.master.ConfigRegistry/]: Loading ZIP archive: Hydraxia_v0.2.2_Pre-Release.zip
+[12Sep2025 00:29:20.046] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Found status: AHEAD Current: 1.20.1-1.0.18 Target: null
+[12Sep2025 00:29:20.046] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forgeconfigscreens] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/forgeconfigscreens.json
+[12Sep2025 00:29:20.059] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forgeconfigscreens] Found status: UP_TO_DATE Current: 8.0.2 Target: null
+[12Sep2025 00:29:20.060] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[12Sep2025 00:29:20.072] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.32 Target: 8.1.33
+[12Sep2025 00:29:20.675] [main/INFO] [com.dfsek.terra.config.pack.ConfigPackImpl/]: Loading config pack "HYDRAXIA:HYDRAXIA"
+[12Sep2025 00:29:21.166] [main/INFO] [com.dfsek.terra.config.pack.ConfigPackImpl/]: Loaded config pack "HYDRAXIA:HYDRAXIA" v0.2.2 by Jaddot in 1110.891733ms.
+[12Sep2025 00:29:21.213] [main/INFO] [com.dfsek.terra.registry.master.ConfigRegistry/]: Loading ZIP archive: default.zip
+[12Sep2025 00:29:21.533] [main/INFO] [com.dfsek.terra.config.pack.ConfigPackImpl/]: Loading config pack "OVERWORLD:OVERWORLD"
+[12Sep2025 00:29:22.836] [main/INFO] [com.dfsek.terra.config.pack.ConfigPackImpl/]: Loaded config pack "OVERWORLD:OVERWORLD" v1.3.3 by Astrash, Sancires, Aureus in 1618.09457ms.
+[12Sep2025 00:29:22.880] [main/INFO] [com.dfsek.terra.AbstractPlatform/]: Loaded packs.
+[12Sep2025 00:29:22.882] [main/INFO] [com.dfsek.terra.lifecycle.util.BiomeUtil/]: Registering biomes...
+[12Sep2025 00:29:22.900] [main/INFO] [com.dfsek.terra.lifecycle.util.BiomeUtil/]: Terra biomes registered.
+[12Sep2025 00:29:22.904] [main/INFO] [com.dfsek.terra.mod.generation.MinecraftChunkGeneratorWrapper/]: Loading world with config pack HYDRAXIA
+[12Sep2025 00:29:22.905] [main/INFO] [com.dfsek.terra.mod.util.PresetUtil/]: Created world type "terra:hydraxia/hydraxia"
+[12Sep2025 00:29:22.906] [main/INFO] [com.dfsek.terra.mod.generation.MinecraftChunkGeneratorWrapper/]: Loading world with config pack OVERWORLD
+[12Sep2025 00:29:22.906] [main/INFO] [com.dfsek.terra.mod.util.PresetUtil/]: Created world type "terra:overworld/overworld"
+[12Sep2025 00:29:22.934] [main/INFO] [com.dfsek.terra.mod.generation.MinecraftChunkGeneratorWrapper/]: Loading world with config pack HYDRAXIA
+[12Sep2025 00:29:23.406] [main/INFO] [Calio/]: CDRM Initialized with 16 registries
+[12Sep2025 00:29:24.107] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[12Sep2025 00:29:24.132] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement compact_storage:storage_on_the_move: Unsupported icon type, currently only items are supported (add 'item' key)
+[12Sep2025 00:29:24.141] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement compact_storage:drum_me_up: Unsupported icon type, currently only items are supported (add 'item' key)
+[12Sep2025 00:29:24.167] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement compact_storage:barrel_me_this: Unsupported icon type, currently only items are supported (add 'item' key)
+[12Sep2025 00:29:24.172] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement compact_storage:compacting_your_storage: Unsupported icon type, currently only items are supported (add 'item' key)
+[12Sep2025 00:29:24.187] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1443 advancements
+[12Sep2025 00:29:24.275] [main/INFO] [com.dfsek.terra.mod.util.MinecraftUtil/]: Injecting flora into Terra biomes...
+[12Sep2025 00:29:24.324] [main/INFO] [com.dfsek.terra.mod.util.TagUtil/]: Doing preset tag garbage....
+[12Sep2025 00:29:24.326] [main/INFO] [com.dfsek.terra.mod.util.TagUtil/]: Doing biome tag garbage....
+[12Sep2025 00:29:24.368] [main/INFO] [com.dfsek.terra.mod.util.MinecraftUtil/]: Injecting flora into Terra biomes...
+[12Sep2025 00:29:24.471] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[12Sep2025 00:29:24.472] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[12Sep2025 00:29:24.472] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[12Sep2025 00:29:24.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[12Sep2025 00:29:24.548] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[12Sep2025 00:29:24.571] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[12Sep2025 00:29:24.649] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12Sep2025 00:29:24.649] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[12Sep2025 00:29:24.649] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12Sep2025 00:29:24.650] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[12Sep2025 00:29:24.733] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[12Sep2025 00:29:24.780] [Server thread/INFO] [CheckedThreadLocalRandom/]: Enforcing safe world random access
+[12Sep2025 00:29:25.053] [Server thread/INFO] [com.dfsek.terra.mod.util.SeedHack/]: Registered seed 5774108467969762167 to sampler 1
+[12Sep2025 00:29:25.260] [Thread-1/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[12Sep2025 00:29:25.324] [Server thread/INFO] [com.dfsek.terra.mod.util.SeedHack/]: Registered seed 5774108467969762167 to sampler 1773588682
+[12Sep2025 00:29:34.057] [Server thread/INFO] [com.dfsek.terra.mod.util.SeedHack/]: Registered seed 5774108467969762167 to sampler -1736609796
+[12Sep2025 00:29:34.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[12Sep2025 00:29:34.485] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Sep2025 00:29:34.582] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Sep2025 00:29:35.077] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Sep2025 00:29:35.579] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Sep2025 00:29:36.077] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Sep2025 00:29:36.578] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Sep2025 00:29:37.076] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[12Sep2025 00:29:37.579] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
+[12Sep2025 00:29:38.082] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
+[12Sep2025 00:29:38.577] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
+[12Sep2025 00:29:39.076] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
+[12Sep2025 00:29:39.577] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
+[12Sep2025 00:29:40.078] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
+[12Sep2025 00:29:40.146] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6070 ms
+[12Sep2025 00:29:40.147] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (15.482s)! For help, type "help"
+[12Sep2025 00:29:40.175] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[12Sep2025 00:29:40.176] [Server thread/WARN] [ModernFix/]: Dedicated server took 56.56 seconds to load
+[12Sep2025 00:29:44.787] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 0
+[12Sep2025 00:29:44.811] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 1
+[12Sep2025 00:29:44.860] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 2
+[12Sep2025 00:29:44.914] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 3
+[12Sep2025 00:29:44.959] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 4
+[12Sep2025 00:29:45.006] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 5
+[12Sep2025 00:29:45.060] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 6
+[12Sep2025 00:29:45.126] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 7
+[12Sep2025 00:29:45.158] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 8
+[12Sep2025 00:29:45.207] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 9
+[12Sep2025 00:29:45.255] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 10
+[12Sep2025 00:29:45.307] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 11
+[12Sep2025 00:29:45.483] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 12
+[12Sep2025 00:29:45.484] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 13
+[12Sep2025 00:29:45.502] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 14
+[12Sep2025 00:29:45.524] [Netty Epoll Server IO #2/INFO] [Calio/]: Received acknowledgment for login packet with id 15
+[12Sep2025 00:29:48.712] [Netty Epoll Server IO #4/INFO] [Calio/]: Received acknowledgment for login packet with id 0
+[12Sep2025 00:29:48.741] [Netty Epoll Server IO #4/INFO] [Calio/]: Received acknowledgment for login packet with id 1
+[12Sep2025 00:29:48.792] [Netty Epoll Server IO #4/INFO] [Calio/]: Received acknowledgment for login packet with id 2
+[12Sep2025 00:29:48.840] [Netty Epoll Server IO #4/INFO] [Calio/]: Received acknowledgment for login packet with id 3
+[12Sep2025 00:29:48.899] [Netty Epoll Server IO #4/INFO] [Calio/]: Received acknowledgment for login packet with id 4
+[12Sep2025 00:29:48.941] [Netty Epoll Server IO #4/INFO] [Calio/]: Received acknowledgment for login packet with id 5
+[12Sep2025 00:29:48.979] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Amalgam5006X[/127.141.222.173:42717] logged in with entity id 152 at (-997.5465526665694, 62.9375, -768.3284767491471)
+[12Sep2025 00:29:49.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Amalgam5006X joined the game
+[12Sep2025 00:29:49.099] [Server thread/INFO] [Jade/]: Syncing config to Amalgam5006X (e48d4058-89e0-3edb-ae78-b1100f9f0fc2)
+[12Sep2025 00:29:49.167] [Netty Epoll Server IO #4/INFO] [Calio/]: Received acknowledgment for login packet with id 6
+[12Sep2025 00:29:50.839] [Netty Epoll Server IO #4/INFO] [Calio/]: Received acknowledgment for login packet with id 7
+[12Sep2025 00:29:51.067] [Netty Epoll Server IO #4/INFO] [Calio/]: Received acknowledgment for login packet with id 8
+[12Sep2025 00:29:51.157] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
+[12Sep2025 00:29:51.191] [Netty Epoll Server IO #4/INFO] [Calio/]: Received acknowledgment for login packet with id 9
+[12Sep2025 00:29:51.349] [Netty Epoll Server IO #4/INFO] [Calio/]: Received acknowledgment for login packet with id 10
+[12Sep2025 00:29:51.447] [Netty Epoll Server IO #4/INFO] [Calio/]: Received acknowledgment for login packet with id 11
+[12Sep2025 00:29:51.672] [Netty Epoll Server IO #4/INFO] [Calio/]: Received acknowledgment for login packet with id 12
+[12Sep2025 00:29:51.673] [Netty Epoll Server IO #4/INFO] [Calio/]: Received acknowledgment for login packet with id 13
+[12Sep2025 00:29:51.676] [Netty Epoll Server IO #4/INFO] [Calio/]: Received acknowledgment for login packet with id 14
+[12Sep2025 00:29:51.706] [Netty Epoll Server IO #4/INFO] [Calio/]: Received acknowledgment for login packet with id 15
+[12Sep2025 00:29:54.804] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dwiss3[/127.150.44.39:56777] logged in with entity id 652 at (1.5, 114.0, 7.5)
+[12Sep2025 00:29:54.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 joined the game
+[12Sep2025 00:29:54.874] [Server thread/INFO] [Jade/]: Syncing config to Dwiss3 (c46fadd7-0f1b-301b-9ff2-ee2aa61b8bc7)
+[12Sep2025 00:32:15.548] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 lost connection: Disconnected
+[12Sep2025 00:32:15.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 left the game
+[12Sep2025 00:33:23.316] [Netty Epoll Server IO #6/INFO] [Calio/]: Received acknowledgment for login packet with id 0
+[12Sep2025 00:33:23.345] [Netty Epoll Server IO #6/INFO] [Calio/]: Received acknowledgment for login packet with id 1
+[12Sep2025 00:33:23.397] [Netty Epoll Server IO #6/INFO] [Calio/]: Received acknowledgment for login packet with id 2
+[12Sep2025 00:33:23.444] [Netty Epoll Server IO #6/INFO] [Calio/]: Received acknowledgment for login packet with id 3
+[12Sep2025 00:33:23.497] [Netty Epoll Server IO #6/INFO] [Calio/]: Received acknowledgment for login packet with id 4
+[12Sep2025 00:33:23.545] [Netty Epoll Server IO #6/INFO] [Calio/]: Received acknowledgment for login packet with id 5
+[12Sep2025 00:33:23.594] [Netty Epoll Server IO #6/INFO] [Calio/]: Received acknowledgment for login packet with id 6
+[12Sep2025 00:33:23.647] [Netty Epoll Server IO #6/INFO] [Calio/]: Received acknowledgment for login packet with id 7
+[12Sep2025 00:33:23.696] [Netty Epoll Server IO #6/INFO] [Calio/]: Received acknowledgment for login packet with id 8
+[12Sep2025 00:33:23.744] [Netty Epoll Server IO #6/INFO] [Calio/]: Received acknowledgment for login packet with id 9
+[12Sep2025 00:33:23.797] [Netty Epoll Server IO #6/INFO] [Calio/]: Received acknowledgment for login packet with id 10
+[12Sep2025 00:33:23.846] [Netty Epoll Server IO #6/INFO] [Calio/]: Received acknowledgment for login packet with id 11
+[12Sep2025 00:33:24.000] [Netty Epoll Server IO #6/INFO] [Calio/]: Received acknowledgment for login packet with id 12
+[12Sep2025 00:33:24.000] [Netty Epoll Server IO #6/INFO] [Calio/]: Received acknowledgment for login packet with id 13
+[12Sep2025 00:33:24.009] [Netty Epoll Server IO #6/INFO] [Calio/]: Received acknowledgment for login packet with id 14
+[12Sep2025 00:33:24.048] [Netty Epoll Server IO #6/INFO] [Calio/]: Received acknowledgment for login packet with id 15
+[12Sep2025 00:33:27.393] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dwiss3[/127.150.44.39:34143] logged in with entity id 1782 at (26.134734126726848, 108.0, 4.941884691696263)
+[12Sep2025 00:33:27.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 joined the game
+[12Sep2025 00:33:27.441] [Server thread/INFO] [Jade/]: Syncing config to Dwiss3 (c46fadd7-0f1b-301b-9ff2-ee2aa61b8bc7)
+[12Sep2025 00:33:30.041] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 lost connection: Disconnected
+[12Sep2025 00:33:30.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 left the game
+[12Sep2025 00:33:45.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Amalgam5006X a server operator
+[12Sep2025 00:33:50.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Amalgam5006X was killed
+[12Sep2025 00:33:50.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Amalgam5006X: Killed Amalgam5006X]
+[12Sep2025 00:35:26.939] [Worker-Main-1/INFO] [ModernFix/]: Instantiating Mojang DFU
+[12Sep2025 00:36:02.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Amalgam5006X: Set the time to 1000]
+[12Sep2025 00:36:06.464] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 0
+[12Sep2025 00:36:06.495] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 1
+[12Sep2025 00:36:06.548] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 2
+[12Sep2025 00:36:06.592] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 3
+[12Sep2025 00:36:06.641] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 4
+[12Sep2025 00:36:06.698] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 5
+[12Sep2025 00:36:06.743] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 6
+[12Sep2025 00:36:06.791] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 7
+[12Sep2025 00:36:06.844] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 8
+[12Sep2025 00:36:06.897] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 9
+[12Sep2025 00:36:06.945] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 10
+[12Sep2025 00:36:06.994] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 11
+[12Sep2025 00:36:07.202] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 12
+[12Sep2025 00:36:07.202] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 13
+[12Sep2025 00:36:07.206] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 14
+[12Sep2025 00:36:07.210] [Netty Epoll Server IO #0/INFO] [Calio/]: Received acknowledgment for login packet with id 15
+[12Sep2025 00:36:10.540] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dwiss3[/127.150.44.39:46409] logged in with entity id 2643 at (26.134734126726848, 108.0, 4.941884691696263)
+[12Sep2025 00:36:10.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 joined the game
+[12Sep2025 00:36:10.589] [Server thread/INFO] [Jade/]: Syncing config to Dwiss3 (c46fadd7-0f1b-301b-9ff2-ee2aa61b8bc7)
+[12Sep2025 00:37:43.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Amalgam5006X: Teleported Amalgam5006X to 20.500000, 81.000000, 20.500000]
+[12Sep2025 00:37:47.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Amalgam5006X: Set own game mode to Spectator Mode]
+[12Sep2025 00:38:01.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Amalgam5006X: Teleported Amalgam5006X to 20.500000, 100.000000, 81.500000]
+[12Sep2025 00:38:10.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Amalgam5006X: Set own game mode to Creative Mode]
